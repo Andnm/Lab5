@@ -27,27 +27,23 @@ class App extends Component {
 
     );
   }
+
+  // render() {
+  //   return (
+  //     <div className="App">
+  //       <Navbar dark color="primary">
+  //         <div className="container">
+  //           <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+  //         </div>
+  //       </Navbar>
+
+  //       <Menu dishes={this.state.dishes} />
+  //     </div>
+  //   );
+  // }
 }
 
 export default App;
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className='App'>
-//         <Navbar dark color='primary'>
-//           <div className='component'>
-//             <NavbarBrand href='/'>Ristorante Con Fusion</NavbarBrand>
-//           </div>
-//         </Navbar>
-//         <Menu />
-//       </div>
-
-//     );
-//   }
-// }
-
-// export default App;
 
 // function App() {
 //   return (
