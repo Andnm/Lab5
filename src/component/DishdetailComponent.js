@@ -12,6 +12,7 @@ class DishDetail extends Component {
     onDishSelect(dish) {
         this.setState({ selectedDish: dish });
     }
+    
     renderDish(dish) {
         if (dish != null)
             return (
@@ -28,6 +29,7 @@ class DishDetail extends Component {
                 <div></div>
             );
     }
+
     renderComments(dish) {
         if (dish != null)
             return (
